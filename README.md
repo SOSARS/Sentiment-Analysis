@@ -1,5 +1,5 @@
 # Sentiment-Analysis
-A simple sentiment analysis task that analyses Amazon book reviews. Involved in the project is a Recurrent Neural Network developed and trained to identify whether an Amazon book review is positive or negative based on the semantics of the review. 
+A simple sentiment analysis task that analyses Amazon book reviews. Involved in the project is a Recurrent Neural Network developed and trained to identify whether an Amazon book review is positive or negative based on the sentiment of the review. 
 
 The first steps taken involve the pre-processing of the reviews. Positive and negative reviews are stored in different text files. Both text files are read into a single list. Two labels identifying "positive" and "negative" reviews are appended as well and the respective reviews are appended to the list. The labels are then converted to a categorical ([1, 0] - positive or [0, 1] - negative) form to input into the neural network for training and prediction generating. 
 
